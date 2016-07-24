@@ -210,7 +210,7 @@ if [ ! -d ${LPT_LIB} ];then
 fi
 pushd ${LPT_LIB}
 autoreconf -i
-./configure CXX=$TMP_CXX CXXFLAGS="-g -O3 -openmp" \
+./configure CXX=$TMP_CXX CXXFLAGS="-g -O3 -qopenmp -std=c++0x" \
  --prefix=${FFV_HOME}/LPTlib \
  --with-pm=${FFV_HOME}/PMlib \
  --with-pdm=${FFV_HOME}/PDMlib \
