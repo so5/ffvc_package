@@ -1,9 +1,6 @@
 [submodule "PDMlib"]
 	path = PDMlib
 	url = https://so5@github.com/so5/PDMlib.git
-[submodule "FFVC"]
-	path = FFVC
-	url = https://so5@github.com/so5/FFVC.git
 [submodule "LPTlib"]
 	path = LPTlib
 	url = https://so5@github.com/so5/LPTlib.git
